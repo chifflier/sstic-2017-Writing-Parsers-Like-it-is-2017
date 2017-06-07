@@ -295,7 +295,7 @@ fn data<'a>(i: &'a [u8]) -> ::nom::IResult<&'a [u8], &[u8], u32> {
 existing parsers:
 
 - textual: TOML, CSV, FASTQ
-- media format:s GIF, FLAC, FLV
+- media formats: GIF, FLAC, FLV
 - network: IP, TCP, NTP, SNMP, DNS, TLS, LDAP, HTTP...
 - languages: Rust, Lua
 
@@ -663,6 +663,7 @@ taking some inspiration from rust-openssl and others here: put the structure def
 servo-bindgen can apparently do the job!
 </details>
 
+
 # C structure to Rust
 
 ```rust
@@ -786,6 +787,9 @@ extern "C" fn open(p_demux: *mut demux_t<demux_sys_t>) -> c_int {
 proceed step by step. Parse a bit, then advance, log everything
 </details>
 
+#
+
+<img src="img/autotools.jpg" height="50%" class="centered" />
 
 # Integration with the build system
 
