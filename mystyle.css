@@ -1,0 +1,51 @@
+.reveal {
+  font-size: 36px;
+}
+
+.reveal .slides {
+  height: 100%;
+  top: 0;
+  margin-top: 0;
+}
+
+.reveal .slides>section {
+  min-height: 90%;
+}
+
+.reveal .slides>section>section {
+  min-height: 100%;
+}
+
+.reveal pre {
+  width: 100%;
+}
+
+.reveal pre code {
+    max-height: 80%;
+}
+
+.smaller {
+    font-size: 24px !important;
+}
+
+.reveal h1 {
+    font-size: 60px;
+}
+
+.reveal table td {
+    border-bottom: 0;
+}
+
+.reveal section img {
+  border: 0;
+  box-shadow: none;
+}
+
+.small {
+  font-size: 28px;
+}
+
+.smaller {
+  font-size: 24px;
+}
+
