@@ -72,7 +72,7 @@ languages with weak development practices
 - highly coupled code
 - hard to test and refactor
 
-# I can code C
+# C is hard
 
 <img src="img/Cloudbleed.png" class="centered" />
 
